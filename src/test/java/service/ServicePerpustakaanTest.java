@@ -1,4 +1,4 @@
-package org.praktikum.example;
+package service;
 
 import org.praktikum.example.model.Anggota;
 import org.praktikum.example.model.Buku;
