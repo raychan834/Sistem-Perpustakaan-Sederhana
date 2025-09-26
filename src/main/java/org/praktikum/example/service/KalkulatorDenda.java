@@ -3,8 +3,6 @@ package org.praktikum.example.service;
 import org.praktikum.example.model.Anggota;
 import org.praktikum.example.model.Peminjaman;
 
-import static org.praktikum.example.model.Anggota.TipeAnggota.*;
-
 public class KalkulatorDenda {
     // Tarif denda harian per tipe (dalam Rupiah)
     private static final double TARIF_DENDA_MAHASISWA = 1000.0;

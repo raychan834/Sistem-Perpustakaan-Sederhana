@@ -93,7 +93,7 @@ public class Anggota {
         return idBukuDipinjam.size();
     }
 
-    public int getBatasPinjam() {
+    public int getBatasPinjam(String isbn) {
         switch (tipeAnggota) {
             case MAHASISWA:
                 return 3;
@@ -107,7 +107,7 @@ public class Anggota {
     }
 
     public boolean bolehPinjamLagi() {
-        return aktif && getJumlahBukuDipinjam() < getBatasPinjam();
+        return aktif && getJumlahBukuDipinjam() < getBatasPinjam(idAnggota);
     }
 
     public void tambahBukuDipinjam(String idBuku) {

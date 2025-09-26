@@ -1,4 +1,4 @@
-package util;
+package org.praktikum.example.util;
 
 import org.praktikum.example.model.Anggota;
 import org.praktikum.example.model.Buku;
@@ -6,8 +6,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
-import org.praktikum.example.util.ValidationUtils;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 @DisplayName("Test Validasi Utils")

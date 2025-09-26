@@ -1,12 +1,10 @@
-package repository;
+package org.praktikum.example.service;
 
 import org.praktikum.example.model.Anggota;
 import org.praktikum.example.model.Peminjaman;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.praktikum.example.service.KalkulatorDenda;
-
 import java.time.LocalDate;
 import static org.junit.jupiter.api.Assertions.*;
 
